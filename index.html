@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Где камень и сердце встречают вечность</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Красные звезды -->
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+<div class="star" aria-hidden="true">★</div>
+
+<header role="banner">
+  <div class="container header-inner">
+    <div class="logo" tabindex="0" aria-label="Логотип Центральной Библиотеки">МБУК МЦБ им. И.М.Бондаренко</div>
+    <div class="filter-container" aria-label="Фильтр по поселению">
+      <label for="poselenie-select">Выберите поселение:</label>
+      <select id="poselenie-select" aria-controls="veterans-container" aria-required="true" aria-label="Выбор поселения"></select>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <h1>Память в сердце и в камне</h1>
+  <div id="veterans-container" aria-live="polite"></div>
+</div>
+
+<footer>
+  © 2025 МБУК МЦБ им. И.М.Бондаренко г. Покровское
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
